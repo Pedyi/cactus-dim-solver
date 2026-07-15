@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cactus-dim-solver"
+version = "1.0.0"
+description = "Reference implementation for 'Extremal and Spectral Results on Dominating Induced Matchings in Cactus and Unicyclic Graphs'"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Pedram Asadzadeh"},
+    {name = "Afshin Behmaram", email = "Behmaram@tabrizu.ac.ir"},
+]
+keywords = ["graph theory", "dominating induced matching", "efficient edge domination", "cactus graphs", "spectral graph theory"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "networkx>=2.8",
+    "numpy>=1.21",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.5"]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/AUTHOR-GITHUB-USERNAME/cactus-dim-solver"
+
+[tool.setuptools]
+packages = ["dim_cactus"]

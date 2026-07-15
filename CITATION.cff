@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "cactus-dim-solver: reference implementation for dominating induced matchings in cactus graphs"
+message: "If you use this software, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Asadzadeh
+    given-names: Pedram
+  - family-names: Behmaram
+    given-names: Afshin
+    email: Behmaram@tabrizu.ac.ir
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/AUTHOR-GITHUB-USERNAME/cactus-dim-solver"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Asadzadeh
+      given-names: Pedram
+    - family-names: Behmaram
+      given-names: Afshin
+  title: "Extremal and Spectral Results on Dominating Induced Matchings in Cactus and Unicyclic Graphs"
+  journal: "Discussiones Mathematicae Graph Theory"
+  year: 2026
